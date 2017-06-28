@@ -192,6 +192,6 @@ public class User {
 
 
 - 安装Docker和Docker Compose。
-- 运行微服务。从Github上将本项目下载，只需进入项目中的Docker文件夹，在命令行模式下通过运行 “docker-compose up”命令，即可运行微服务。
+- 运行微服务。从Github上将本项目下载，首先进入项目根目录中，在命令行模式下运行 “mvn clean install”命令，生成docker镜像完成后进入根目录下的Docker文件夹，在命令行模式下通过运行 “docker-compose up” 命令，即可运行微服务。
 
  
