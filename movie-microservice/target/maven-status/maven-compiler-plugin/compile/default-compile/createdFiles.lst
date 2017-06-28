@@ -1,5 +1,0 @@
-com/xiaojie/data/domain/Movie.class
-com/xiaojie/Application.class
-com/xiaojie/config/ApplicationConfig.class
-com/xiaojie/data/repositories/MovieRepository.class
-com/xiaojie/data/domain/Genre.class
