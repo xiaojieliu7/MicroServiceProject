@@ -1,0 +1,8 @@
+com/xiaojie/data/domain/entity/Product.class
+com/xiaojie/config/GraphDatabaseConfiguration.class
+com/xiaojie/data/domain/entity/User.class
+com/xiaojie/data/repositories/UserRepository.class
+com/xiaojie/data/domain/rels/Rating.class
+com/xiaojie/data/repositories/RatingRepository.class
+com/xiaojie/Application.class
+com/xiaojie/data/repositories/ProductRepository.class

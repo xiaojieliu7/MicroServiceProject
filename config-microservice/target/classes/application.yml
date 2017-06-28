@@ -1,0 +1,51 @@
+spring:
+  profiles:
+    active: cloud
+---
+spring:
+  profiles:
+    name: cloud
+  cloud:
+    config:
+      discovery:
+        enabled: true
+      server:
+        git:
+          uri: https://github.com/xiaojieliu7/spring-boot-microservice-config
+        health:
+          repositories:
+            movie:
+              label: master
+              profiles: cloud
+            rating:
+              label: master
+              profiles: cloud
+server:
+  port: 8899
+info:
+  description: Config Server
+  url: https://github.com/xiaojie/spring-cloud-microservice-example
+---
+spring:
+  profiles:
+    name: docker
+  cloud:
+    config:
+      discovery:
+        enabled: true
+      server:
+        git:
+          uri: https://github.com/xiaojieliu7/spring-boot-microservice-config
+        health:
+          repositories:
+            movie:
+              label: master
+              profiles: cloud
+            rating:
+              label: master
+              profiles: cloud
+server:
+  port: 8899
+info:
+  description: Config Server
+  url: https://github.com/xiaojie/spring-cloud-microservice-example

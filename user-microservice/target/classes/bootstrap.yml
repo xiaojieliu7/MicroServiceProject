@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: docker
+---
+spring:
+  profiles: cloud
+  application:
+    name: userinfo
+encrypt:
+  failOnError: false
+---
+spring:
+  profiles: docker
+  application:
+    name: user
+  cloud:
+    config:
+      uri: http://configServer:8899
+      enabled: false
+encrypt:
+  failOnError: false

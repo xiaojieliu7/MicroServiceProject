@@ -1,0 +1,1117 @@
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+html, body{
+    font-size: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background:#FFFFFF;
+}
+/*-- banner --*/
+.banner{
+	background:url(../images/8.jpg) no-repeat 0px 0px;
+	background-size:cover;
+}
+.jarallax {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+/*-- header-left --*/
+.header {
+    padding: 1em 0;
+}
+.header-left{
+    text-align: center;
+}
+.w3layouts-logo h1 {
+    margin: 0;
+}
+.w3layouts-logo h1 a {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 28px;
+    text-transform: uppercase;
+}
+.w3layouts-logo h1 a span{
+	color: #ffffff !important;
+    font-weight: 100;
+    text-transform: capitalize;
+    display: block;
+    font-size: .35em;
+    letter-spacing: 17px;
+}
+/*-- //header-left --*/
+/*-- top-nav --*/
+.top-nav{
+    margin: 2em 0 0 0;
+}
+.top-nav ul{
+    padding: 1em 0;
+    margin: 0;
+    border-top: solid 1px rgba(255, 255, 255, 0.54);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.54);
+}
+.top-nav ul li{
+    display: inline-block;
+    float: none;
+    margin: 0 3em;
+}
+.top-nav ul li:nth-child(1){
+	margin-left:0;
+}
+.top-nav ul li:last-child{
+	margin-right:0;
+}
+ul.nav.navbar-nav {
+    float: none;
+    text-align: center;
+    background: none;
+}
+.navbar-default{
+    background: none;
+    border: none;
+    margin: 0;
+}
+.navbar {
+    min-height: 0;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background: none;
+    box-shadow: 1px 0px 0px 0px rgba(72, 72, 72, 0);
+    outline: none;
+    border-right: none;
+    border-top: solid 1px rgba(255, 255, 255, 0.54);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.54);
+}
+.top-nav ul li a{
+	color: #ffffff !important;
+    font-size: 1em;
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-right: none;
+}
+.top-nav ul li a.list-border{
+	border-left: none;
+}
+.top-nav ul li a:hover{
+	color: #8BC34A !important;
+}
+.top-nav ul li a.active{
+    color: #8BC34A !important;
+    background: none;
+}
+/*-- //top-nav --*/
+/*-- w3-banner --*/
+.w3-banner{
+    padding: 6em 0 8em 0;
+    text-align: center;
+}
+#typer {
+	vertical-align: middle;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 6em !important;
+    font-weight: 800;
+    letter-spacing: 8px;
+}
+.top-banner-right{
+	margin:2em 0 0 0;
+}
+.top-banner-right ul{
+	padding:0;
+	margin:0;
+}
+.top-banner-right ul li{
+	display:inline-block;
+	margin:0 1em;
+}
+.top-banner-right ul li:nth-child(4){
+	margin-right:0;
+}
+.top-banner-right ul li a{
+	color:#fff;
+	font-size:1em;
+}
+.top-banner-right ul li a:hover{
+    color: #8BC34A;
+}
+.w3ls-phone{
+	margin: 9em 0 0 0;
+}
+.w3ls-phone h2 {
+    color: #FFFFFF;
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+    font-weight: 300;
+}
+/*-- w3-banner --*/
+/*-- about --*/
+.about,.middle-bottom,.portfolio,.team,.blog,.contact,.footer{
+	padding:4em 0;
+}
+.w3ls-heading{
+	text-align:center;
+}
+.w3ls-heading h3{
+    color: #8BC34A;
+    font-size: 3em;
+    margin: 0;
+    font-weight: 800;
+}
+.w3ls-heading p{
+	color: #212121;
+    font-size: .9em;
+    margin: 1em 0 0 0;
+    letter-spacing: 3px;
+}
+.agileits-about-grids,.middle-bottom-grids,.agileits_portfolio_grids,.inner_w3l_agile_grids,.w3-agile-blog-grids,.contact-grids {
+	margin:4em 0 0 0;
+}
+.agileits-about-grid p{
+	font-size:.9em;
+	margin:0;
+	line-height:1.8em;
+	color:#999999;
+}
+.agileinfo-about-slide {
+    margin: 4em 0 0 0;
+}
+.about-grid-info img {
+    width: 100%;
+}
+.about-grid-caption h4{
+	color: #FFFFFF;
+    font-size: 2em;
+    margin: .5em 0 0 0;
+}
+.about-grid-caption p{
+    color: #c5c5c5;
+    font-size: 1em;
+    margin: 0;
+}
+.about-grid-caption {
+    background: rgba(0, 0, 0, 0.61);
+    padding: 6em 1em 1em 1em;
+    position: absolute;
+    left: 0;
+    bottom: -110%;
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    -moz-transition: .5s all;
+}
+.about-grid-info:hover .about-grid-caption{
+    bottom: 0%;
+}
+/*-- //about --*/
+/*--//middle-bottom --*/
+.middle-bottom {
+    background: #eee;
+}
+.middle-bottom h4 {
+    font-size: 1em;
+    text-align: left;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #212121;
+    text-transform: uppercase;
+}
+.middle-bottom-grids p {
+    font-size: .9em;
+    text-align: left;
+    line-height: 1.8em;
+    margin: 1em 0 0 0;
+    color: #999999;
+}
+.middle-bottom span {
+    font-size: 3em;
+    color: #8BC34A;
+    padding-right: .5em;
+}
+.w3l-one,.w3-two {
+    border-left: 1px solid #bbbbbb;
+}
+.one-2 {
+    padding: 9em 0 0;
+}
+.two {
+    padding: 11em 0 0;
+}
+.two-1 {
+    padding: 11em 0;
+}
+.one-3 {
+    padding: 9em 0;
+}
+/*--//middle-bottom --*/
+/*-- portfolio --*/
+.agileits_portfolio_grids{
+	margin:1em 0 0;
+}
+.agileinfo_portfolio_grid{
+	margin-top:2em;
+}
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    width: 100%;
+}
+
+.hovereffect:hover img {
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+  -moz-filter: brightness(0.6);
+  -o-filter: brightness(0.6);
+  -ms-filter: brightness(0.6);
+}
+
+.hovereffect h4 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 1em 0 0 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+}
+
+.hovereffect p{
+	color: #FFF;
+    line-height: 1.8em;
+    margin: 0;
+    font-size: .9em;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover p, .hovereffect:hover h4 {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+/*-- //portfolio --*/
+/*-- team --*/
+.team{
+	background: url(../images/8.jpg)no-repeat 0px 0px;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.team-heading h3,.team-heading p{
+	color:#FFFFFF;
+}
+.tab1 .team-img-w3-agile{
+	  background: url(../images/t1.jpg)no-repeat 0px 0px;
+}
+.tab2 .team-img-w3-agile{
+	  background: url(../images/t2.jpg)no-repeat 0px 0px;
+}
+.tab3 .team-img-w3-agile{
+	  background: url(../images/t3.jpg)no-repeat 0px 0px;
+}
+.tab4 .team-img-w3-agile{
+	  background: url(../images/t4.jpg)no-repeat 0px 0px;
+}
+.tab1 .team-img-w3-agile,.tab2 .team-img-w3-agile,.tab3 .team-img-w3-agile,.tab4 .team-img-w3-agile{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 342px;
+    width: 27%;
+}
+.team-Info-agileits {
+    text-align: left;
+    padding: 2em 0 0 3em;
+}
+.team-Info-agileits h4 {
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    color: #212121;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.team-Info-agileits span {
+	font-size: .9em;
+    letter-spacing: 0;
+    color: #8BC34A;
+}
+.team-Info-agileits p {
+    font-size: .9em;
+    color: #999999;
+    line-height: 1.8em;
+    margin: 1.5em 0 2em;
+}
+.resp-tabs-list li{
+       border:3px solid #fff;
+}
+li.resp-tab-item.resp-tab-active{
+    border: 3px solid #8BC34A;
+}
+ul.resp-tabs-list {
+    text-align: center;
+}
+.resp-tabs-list li img {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    width: 100%;
+}
+.inner_w3l_agile_grids {
+    margin-top: 4em;
+}
+.w3_agileits_social_media.team_agile_w3l {
+    margin: 0;
+    float: none;
+    padding: 0;
+}
+li.agileinfo_share.team {
+    color: #444;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.w3_agileits_social_media {
+    float: right;
+    padding: 6em 6em 0 0em;
+       margin-top: 7em;
+}
+ul.social-icons3{
+	display:block;
+	padding: 0;
+	margin-top: 1em;
+}
+ul.social-icons3 li{
+	display:inline-block;
+}
+ul.social-icons3 li a{  
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-right: 1em;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    -moz-transition: .5s all;
+	    margin-right: 0.4em;
+	-webkit-transition: .5s all;
+    transition: .5s all;
+    -moz-transition: .5s all;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    line-height: 30px;
+	color:#fff;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-o-border-radius:50%;
+	text-align:center;
+}
+ul.social-icons3 li a.wthree_facebook{
+	 background:#4D669C;
+}
+ul.social-icons3 li a.wthree_twitter{
+	 background:#1da1f2;
+}
+ul.social-icons3 li a.wthree_dribbble{
+	 background:#ea4c89;
+}
+ul.social-icons3 li a.wthree_behance{
+	 background:#0096ff;
+}
+ul.social-icons3 li a:hover{
+	text-decoration:none;
+	opacity:0.8;
+}
+li.agileinfo_share {
+    color: #212121;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    font-size: 1em;
+    font-weight: 600;
+}
+/*-- //team --*/
+/*-- blog --*/
+.w3-agile-blog-left a img{
+	width:100%;
+}
+.blog-left-left {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background: #8BC34A;
+    text-align: center;
+    padding: 1.3em 0 0 0;
+}
+i.fa.fa-pencil {
+    color: #FFFFFF;
+    font-size: 2.5em;
+}
+.blog-left-right-top{
+    float: left;
+    width: 72%;
+    margin-left: 1em;
+}
+.blog-left-right-top h4 {
+    color: #000000;
+    font-size: 1em;
+    margin: 0 0 .5em 0;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.blog-left-right-top h4 a {
+    text-decoration: none;
+    color: #000000;
+}
+.blog-left-right-top p {
+    margin: 0 0 1em;
+    font-size: .9em;
+    color: #333333;
+}
+.blog-left-right-top p a {
+	color: #8bc34a;
+    text-decoration: none;
+}
+.blog-left-right-top p a:hover{
+	color:#000000;
+}
+.blog-left-right-top h4 a:hover{
+    color: #8bc34a;
+}
+.blog-left-right-top h4 a:focus,.w3-agile-blog-left a:focus,.w3-agile-blog-right-info a:focus{
+	outline:none;
+}
+.w3-agile-blog-right-info p{
+    margin: 1em 0 2em 0;
+    font-size: .9em;
+    color: #999999;
+    line-height: 1.8em;
+}
+.w3-agile-blog-right-info a{
+    color: #212121;
+    font-size: .9em;
+    text-decoration: none;
+    padding: .5em 1em;
+    border: solid 1px #212121;
+}
+.w3-agile-blog-right-info a:hover{
+	background: #8BC34A;
+    color: #FFFFFF;
+    border: solid 1px #8BC34A;	
+}
+.w3-agile-blog-grid:nth-child(2){
+	margin:2em 0 0 0;
+}
+/*-- //blog --*/
+/*-- model --*/
+.agileits-w3layouts-info img{
+	width:100%;
+}
+.modal-header h4 {
+    font-size: 2em;
+    color: #212121;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 0;
+    font-weight: 800;
+	text-transform:uppercase;
+}
+.modal-header h4 span{
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #8BC34A;
+    letter-spacing: 1px;
+    font-size: .8em;
+}
+.modal-body p{
+    margin: 1em 0 0 0;
+    font-size: .875em;
+    color: #999999;
+    line-height: 1.8em;
+}
+/*-- //model --*/
+/*-- contact --*/
+.contact {
+    background: #eee;
+}
+.contact-info-left {
+	float:left;
+	width:5%;
+}
+.contact-info-left i.fa{
+    color: #8BC34A;
+    vertical-align: top;
+    font-size: 1em;
+}
+.contact-info:nth-child(2){
+	margin:2em 0;
+}
+.contact-info-right {
+    float: left;
+    margin: 0 0 0 1em;
+}
+.contact-info-right h5{
+    color: #000000;
+    font-size: 1em;
+    margin: 0 0 .5em 0;
+    font-weight: 600;
+}
+.contact-info-right p{
+    color: #999999;
+    line-height: 1.8em;
+    margin: 1em 0 0 0;
+    font-size: .9em;
+}
+.contact-info-right ul{
+	padding:0;
+	margin:0;
+}
+.contact-info-right ul li{
+	display:block;
+	color: #999999;
+    font-size: .9em;
+}
+.contact-info-right ul li a{
+	color:#999999;
+	text-decoration:none;
+}
+.contact-info-right ul li a:hover{
+	color: #8BC34A;
+}
+.contact input[type="text"],.contact input[type="email"] {
+    width: 47.7%;
+    color: #999;
+    float: left;
+    background: none;
+    outline: none;
+    font-size: .9em;
+    padding: .7em 1em;
+    margin-bottom: 1.5em;
+    border: solid 1px #999;
+    -webkit-appearance: none;
+    display: inline-block;
+}
+.contact-form textarea {
+    resize: none;
+    width: 100%;
+    background: none;
+    color: #999;
+    font-size: .9em;
+    outline: none;
+    padding: .6em .8em;
+    border: solid 1px #999;
+    min-height: 12em;
+    -webkit-appearance: none;
+}
+.contact-form input.email {
+    margin: 0 0 0 1.8em;
+}
+.contact-form input[type="submit"] {
+	outline: none;
+    color: #212121;
+    padding: 0.6em 3em;
+    font-size: .9em;
+    margin: 1em 0 0 0;
+    -webkit-appearance: none;
+    background: none;
+    transition: 0.5s all;
+    border: 1px solid #212121;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+}
+.contact-form input[type="submit"]:hover {
+	color: #FFFFFF;
+    background: #8BC34A;
+    border: 1px solid #8BC34A;
+}
+/*-- //contact --*/
+/*-- footer --*/
+.footer{
+    background: #0f1215;
+}
+.social {
+    margin: 1em 0 0 0;
+    text-align: center;
+}
+.social ul{
+	padding:0;
+	margin:0;
+}
+.social ul li{
+	display:inline-block;
+}
+.social ul li a {
+	color: #333;
+    text-align: center;
+}
+.social ul li a i.fa{
+    height: 40px;
+    width: 40px;
+    background: none;
+    line-height: 37px;
+    border: solid 2px #FFF;
+    color: #FFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.social ul li a i.fa.fa-facebook:hover {
+    height: 40px;
+    width: 40px;
+    line-height: 37px;
+	background: #3b5998;
+}
+.social ul li a i.fa.fa-twitter:hover{
+    height: 40px;
+    width: 40px;
+    line-height: 37px;
+	background: #1da1f2;
+}
+.social ul li a i.fa.fa-rss:hover{
+    height: 40px;
+    width: 40px;
+    line-height: 37px;
+	background: #f26522;
+}
+.social ul li a i.fa.fa-vk:hover{
+    height: 40px;
+    width: 40px;
+    line-height: 37px;
+	background: #45668e;
+}
+.social ul li:nth-child(2){
+	margin:0 .5em;
+}
+.social ul li:nth-child(3){
+	margin:0 .5em 0 0;
+}
+.border {
+	border-bottom: solid 1px #FFFFFF;
+    width: 6%;
+    margin: 2em auto;
+}
+.agileits-w3layouts-copyright p{
+    color: #FFFFFF;
+    font-size: .9em;
+    margin:0;
+    text-align: center;
+}
+.agileits-w3layouts-copyright p a{
+    color: #8BC34A;
+    text-decoration: none;
+}
+.agileits-w3layouts-copyright p a:hover{
+	color:#FFFFFF;
+}
+/*-- //footer --*/
+/*-- to-top --*/
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	right: 2%;
+	overflow: hidden;
+	z-index: 999; 
+	width: 40px;
+	height: 40px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/arrow.png) no-repeat 0px 0px;
+}
+#toTopHover {
+	width: 40px;
+	height: 40px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*-- //to-top --*/
+/*-- responsive --*/
+@media(max-width:1080px){
+	.top-nav ul li {
+		margin: 0 2em;
+	}
+	.about-grid-caption {
+		padding: 4em 1em 1em 1em;
+		height: 220px;
+	}
+}
+@media(max-width:1024px){
+	.hovereffect h4 {
+		padding: .5em 0 0 0;
+	}
+}
+@media(max-width:991px){
+	.top-nav ul li {
+		margin: 0 1em;
+	}
+	#typer {
+		font-size: 4em !important;
+	}
+	.w3ls-phone {
+		margin: 6em 0 0 0;
+	}
+	.w3-banner {
+		padding: 4em 0 6em 0;
+	}
+	.about-grid-caption {
+	    padding: 3em 1em 1em 1em;
+		height: 168px;
+	}
+	.one-2 {
+		padding: 3em 0 0;
+	}
+	.one-3,.two-1 {
+		padding: 3em 0;
+	}
+	.two {
+		padding:0;
+	}
+	.agileits_portfolio_grid {
+		float: left;
+		width: 50%;
+	}
+	.hovereffect h4 {
+		padding: 2em 0 0 0;
+	}
+	.tab1 .team-img-w3-agile, .tab2 .team-img-w3-agile, .tab3 .team-img-w3-agile, .tab4 .team-img-w3-agile {
+		min-height: 259px;
+		width: 30%;
+		float: left;
+	}
+	.team-Info-agileits {
+		float: left;
+		width: 70%;
+	}
+	.w3-agile-blog-right {
+		margin: 2em 0 0 0;
+	}
+	.contact-form {
+		margin: 2em 0 0 0;
+	}
+}
+@media(max-width:768px){
+	.about-grid-caption {
+		padding: 5em 1em 1em 1em;
+		height: 240px;
+	}
+}
+@media(max-width:736px){
+	.navbar-toggle {
+		float: none;
+		margin-right: 0;
+	}
+	.navbar {
+		text-align: center;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: #fff;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background-color: #8BC34A;
+	}
+	.top-nav ul li {
+		margin: 1em 0;
+		display: block;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: none;
+		background: rgba(0, 0, 0, 0.8);
+		position: absolute;
+		width: 100%;
+		z-index: 9999;
+	}
+}
+@media(max-width:667px){
+	.about-grid-caption {
+		height: 218px;
+	}
+}
+@media(max-width:640px){
+	#typer {
+		font-size: 3em !important;
+	}
+	.w3-banner {
+		padding: 3em 0 3em 0;
+	}
+	.w3ls-phone h2 {
+		font-size: 2em;
+	}
+	.w3ls-phone {
+		margin: 4em 0 0 0;
+	}
+	.about-grid-caption {
+		height: 208px;
+		padding: 4em 1em 1em 1em;
+	}
+}
+@media(max-width:600px){
+	.about-grid-caption {
+		height: 194px;
+	}
+	.hovereffect h4 {
+		padding: 1em 0 0 0;
+	}
+	.contact input[type="text"], .contact input[type="email"] {
+		width: 47%;
+	}
+}
+@media(max-width:568px){
+	.about-grid-caption {
+		height: 183px;
+	}
+	.tab1 .team-img-w3-agile, .tab2 .team-img-w3-agile, .tab3 .team-img-w3-agile, .tab4 .team-img-w3-agile {
+		min-height: 195px;
+	}
+	.team-Info-agileits {
+		padding: 0em 0 0 1em;
+	}
+	#typer {
+		letter-spacing: 4px;
+	}
+	.w3-banner {
+		padding: 1em 0;
+	}
+	.w3ls-phone {
+		margin: 2em 0 0 0;
+	}
+	.about-grid-caption {
+		height: 290px;
+		padding: 7em 1em 1em 1em;
+	}
+	.top-nav {
+		margin: 1em 0 0 0;
+	}
+	.hovereffect h4 {
+		padding: 0em 0 0 0;
+	}
+	.contact input[type="text"], .contact input[type="email"] {
+		width: 46%;
+	}
+}
+@media(max-width:480px){
+	.about, .middle-bottom, .portfolio, .team, .blog, .contact, .footer {
+		padding: 2em 0;
+	}
+	.agileits-about-grids, .middle-bottom-grids, .agileits_portfolio_grids, .inner_w3l_agile_grids, .w3-agile-blog-grids, .contact-grids {
+		margin: 2em 0 0 0;
+	}
+	.one-3, .two-1 {
+		padding: 2em 0;
+	}
+	.one-2 {
+		padding: 2em 0 0;
+	}
+	.team-Info-agileits p {
+		margin: 0.5em 0 1em;
+	}
+	.agileits_portfolio_grids {
+		margin: 0;
+	}
+}
+@media(max-width:414px){
+	#typer {
+		font-size: 2em !important;
+	}
+	.w3layouts-logo h1 a {
+		font-size: .9em;
+		letter-spacing: 14px;
+	}
+	.w3ls-phone h2 {
+		font-size: 1.5em;
+	}
+	.w3ls-heading h3 {
+		font-size: 2em;
+	}
+	.about-grid-caption {
+		height: 258px;
+	}
+	.hovereffect p {
+		font-size: .8em;
+	}
+	.hovereffect h4 {
+		font-size: 1em;
+	}
+	i.fa.fa-pencil {
+		font-size: 1.5em;
+	}
+	.blog-left-left {
+		width: 60px;
+		height: 60px;
+		padding: 1.2em 0 0 0;
+	}
+	.agileinfo-about-slide {
+		margin: 2em 0 0 0;
+	}
+	.modal-header h4 {
+		font-size: 1.2em;
+	}
+	.middle-bottom span {
+		font-size: 2em;
+	}
+}
+@media(max-width:384px){
+	.agileits_portfolio_grid {
+		float: none;
+		width: 100%;
+	}
+	.hovereffect h4 {
+		padding: 2em 0 0 0;
+	}
+	.tab1 .team-img-w3-agile, .tab2 .team-img-w3-agile, .tab3 .team-img-w3-agile, .tab4 .team-img-w3-agile {
+		min-height: 310px;
+		width: 100%;
+		float: none;
+	}
+	.team-Info-agileits {
+		float: none;
+		width: 100%;
+	}
+	.contact input[type="text"], .contact input[type="email"] {
+		width: 100%;
+	}
+	.contact-form input.email {
+		margin: 0 0 1.5em 0;
+	}
+	.about-grid-caption {
+		height: 237px;
+		padding: 5em 1em 1em 1em;
+	}
+}
+@media(max-width:375px){
+	.about-grid-caption {
+		height: 229px;
+	}
+	.middle-bottom h4 {
+		letter-spacing: 1px;
+	}
+}
+@media(max-width:320px){
+	.w3layouts-logo h1 a {
+		letter-spacing: 14px;
+	}
+	.w3layouts-logo h1 a span {
+		font-size: .45em;
+		letter-spacing: 14px;
+	}
+	#typer {
+		font-size: 1.5em !important;
+	}
+	.header {
+		padding: .5em 0;
+	}
+	.top-banner-right ul li {
+		margin: 0 .5em;
+	}
+	.w3ls-phone h2 {
+		font-size: 1em;
+	}
+	.top-banner-right {
+		margin: 1em 0 0 0;
+	}
+	.about-grid-caption {
+		height: 192px;
+		padding: 4em 1em 1em 1em;
+	}
+	.about-grid-caption h4 {
+		font-size: 1.5em;
+	}
+	.middle-bottom h4 {
+		font-size: .9em;
+	}
+	.hovereffect h4 {
+		padding: 1em 0 0 0;
+	}
+	.blog-left-left {
+		width: 50px;
+		height: 50px;
+		padding: .9em 0 0 0;
+	}
+	.footer {
+		padding: 1em 0;
+	}
+	.border {
+		width: 30%;
+		margin: 1em auto;
+	}
+}
+/*-- //responsive --*/

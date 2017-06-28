@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en"
+	  xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- bootstrap-css -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!--// css -->
+	<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+	<link href="css/owl.theme.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+	<!-- tabs -->
+	<link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+	<!-- //tabs -->
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!-- font -->
+	<link href="http://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<!-- //font -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+	</script>
+	<script>
+        $(document).ready(function() {
+            $("#owl-demo").owlCarousel({
+
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+                autoPlay:true,
+                items : 3,
+                itemsDesktop : [640,5],
+                itemsDesktopSmall : [414,4]
+
+            });
+
+        });
+	</script>
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="css/dataTable.css" media="screen">
+	<style type="text/css">
+		body, th, td { font-family: Arial, Verdana, sans-serif; font-size: 0.9em; }
+		a:link, a:visited { color: #59B337; }
+		a:hover, a:active, a:focus { color: #000000; }
+		table.dataTable tr.marked { background-color: #FFD900; }
+	</style>
+	<link rel="stylesheet" href="css/bootstrap-table.css">
+	<script src="js/bootstrap-table.js"></script>
+</head>
+<body>
+<!-- banner -->
+<div class="banner jarallax">
+	<div class="header">
+		<div class="container">
+			<div class="header-left">
+				<div class="w3layouts-logo">
+					<h1>
+						<a href="home.html"><label style="font-size: 40px; color: #8BC34A">Movie</label> Recommendation</a>
+					</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header-bottom">
+		<div class="container">
+			<div class="top-nav">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li><a class="active" href="home.html">首页</a></li>
+							<li><a href="#about" class="scroll">最近热门电影</a></li>
+							<li><a href="#services" class="scroll">电影观看记录</a></li>
+							<li><a href="#gallery" class="scroll">相关电影推荐</a></li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+				</nav>
+			</div>
+			<!-- w3-banner -->
+			<div class="w3-banner">
+				<div id="typer"></div>
+				<div class="top-banner-right">
+					<ul>
+						<li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a class="facebook" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a class="facebook" href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						<li><a class="facebook" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- //w3-banner -->
+		</div>
+	</div>
+</div>
+<!-- //banner -->
+<!-- about -->
+<div class="about" id="about">
+	<div class="container">
+		<div class="w3ls-heading">
+			<h3>最近热门电影</h3>
+		</div>
+		<div class="agileinfo-about-slide">
+			<div id="owl-demo" class="owl-carousel owl-theme">
+				<div class="item">
+					<div class="about-grid-info">
+						<img src="images/1.jpg" alt="" />
+						<a href="https://movie.douban.com/subject/1578714/">
+							<div class="about-grid-caption">
+								<h4>导演: 派蒂·杰金斯</h4>
+								<p>主演: 盖尔·加朵</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="about-grid-info">
+						<img src="images/2.jpg" alt="" />
+						<a href="https://movie.douban.com/subject/26387939/">
+							<div class="about-grid-caption">
+								<h4>导演: 涅提·蒂瓦里</h4>
+								<p>主演: 阿米尔·汗</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="about-grid-info">
+						<img src="images/3.jpg" alt="" />
+						<a href="https://movie.douban.com/subject/11803087/">
+							<div class="about-grid-caption">
+								<h4>导演: 雷德利·斯科特</h4>
+								<p>主演: 迈克尔·法斯宾德</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="about-grid-info">
+						<img src="images/4.jpg" alt="" />
+						<a href="https://movie.douban.com/subject/20451290/">
+							<div class="about-grid-caption">
+								<h4>导演: 艾里克斯·库兹曼</h4>
+								<p>主演: 汤姆·克鲁斯</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="about-grid-info">
+						<img src="images/5.jpg" alt="" />
+						<a href="https://movie.douban.com/subject/26606242/">
+							<div class="about-grid-caption">
+								<h4>导演: 张扬</h4>
+								<p>主演: 尼玛扎堆</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="about-grid-info">
+						<img src="images/6.jpg" alt="" />
+						<a href="https://movie.douban.com/subject/6311303/">
+							<div class="about-grid-caption">
+								<h4>导演: 艾斯彭·山德伯格</h4>
+								<p>主演: 约翰尼·德普</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="about-grid-info">
+						<img src="images/7.jpg" alt="" />
+						<a href="https://movie.douban.com/subject/26995137/">
+							<div class="about-grid-caption">
+								<h4>导演: 谈宜之</h4>
+								<p>主演: 高强</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="about-grid-info">
+						<img src="images/9.jpg" alt="" />
+						<a href="https://movie.douban.com/subject/26266924/">
+							<div class="about-grid-caption">
+								<h4>导演: 檀冰</h4>
+								<p>主演: 李东学</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="about-grid-info">
+						<img src="images/10.jpg" alt="" />
+						<a href="https://movie.douban.com/subject/26920269/">
+							<div class="about-grid-caption">
+								<h4>导演: 亦风</h4>
+								<p>主演: 李微漪</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //about -->
+
+<!-- middle-bottom -->
+<div class="middle-bottom" id="services">
+	<div class="container">
+		<div class="w3ls-heading">
+			<h3>电影观看记录</h3>
+			<p></p>
+		</div>
+		<div class="agileits_portfolio_grids">
+			<table id="table" data-toggle="table">
+				<thead>
+				<tr>
+					<th data-field="index" data-formatter="indexFormatter">序号</th>
+					<th data-field="name">电影名称</th>
+					<th data-field="similar">相似电影</th>
+				</tr>
+				</thead>
+
+				<tbody>
+				<tr th:each="movie:${viewedMovieList}">
+					<td></td>
+					<td th:value="${movie.getTitle()}"><label th:text="${movie.getTitle()}"></label></td>
+					<td><a th:id="${movie.getId()}" onclick="editInfo()">查看相似电影</a></td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+		<script src="js/jquery.tools.min.js"></script>
+		<script src="js/jquery.mobile.custom.min.js"></script>
+		<script src="js/jquery.cm-overlay.js"></script>
+		<script>
+            $(document).ready(function(){
+                $('.cm-overlay').cmOverlay();
+            });
+		</script>
+		<script type="text/javascript">
+            function indexFormatter(value, row, index) {
+                return index+1;
+            }
+		</script>
+		<script>
+            //触发模态框的同时调用此方法
+            function editInfo() {
+                var f = document.getElementById("modeltbody");
+                var childs = f.childNodes;
+                for(var i = childs.length - 1; i >= 0; i--) {
+                    f.removeChild(childs[i]);
+                }
+
+                var object = event.srcElement; // 通过event.srcelement 获取激活事件的对象
+                var modelid = object.id;
+                $.ajax({
+                    type: "GET",
+                    url: "/getmovies",
+                    data: {
+                        movieid: modelid
+                    },
+                    dataType: "json",
+                    success: function(data){
+                        $("#createResult").html(data.msg);
+                        var movielist = data.movielist;
+                        for(var i in movielist) {
+                            var name = movielist[i].name,
+                                url = movielist[i].url;
+                            var j = parseInt(parseInt(i) + parseInt(1));
+                            var html = '<tr>'+
+                                '<td>'+ j +'</td>'+
+                                '<td>'+name+'</td>'+
+                                '<td><a href="'+ url +'">'+url+'</a></td>'+
+                                '</tr>';
+                            $('#modeltbody').append(html);
+                        }
+                        $('#myModal').modal('show');
+                    },
+                    error: function(jqXHR){
+                        alert("发生错误：" + jqXHR.status);
+                    },
+                });
+
+            }
+		</script>
+	</div>
+</div>
+<!-- //middle-bottom -->
+<!-- portfolio -->
+<div class="portfolio" id="gallery">
+	<div class="container">
+		<div class="w3ls-heading">
+			<h3>相关电影推荐</h3>
+			<p>根据用户已观看电影所推荐的相关影片TOP5</p>
+		</div>
+		<div class="middle-bottom-grids">
+			<div class="col-md-6 w3l-one">
+				<div class="one">
+					<h4><span style="color: #8BC34A; font-size: 30px">01 &nbsp;</span>
+						<label th:text="${recommendationMovieList.get(0).getTitle()}"></label>
+					</h4>
+					<p>
+					<div>电影标签：</div>
+					<div th:each="genre:${recommendationMovieList.get(0).getGenres()}">
+						<img src="images/icon.png"/>
+						<label th:text="${genre.getName()} "></label>
+					</div>
+					<div>观看地址：</div>
+					<div>
+						<a th:href="${recommendationMovieList.get(0).getUrl()}">
+							<label th:text="${recommendationMovieList.get(0).getUrl()}"></label>
+						</a>
+					</div>
+					</p>
+				</div>
+				<div class="one-2">
+					<h4><span style="color: #8BC34A; font-size: 30px">02 &nbsp;</span>
+						<label th:text="${recommendationMovieList.get(1).getTitle()}"></label>
+					</h4>
+					<p>
+					<div>电影标签：</div>
+					<div th:each="genre:${recommendationMovieList.get(1).getGenres()}">
+						<img src="images/icon.png"/>
+						<label th:text="${genre.getName()} "></label>
+					</div>
+					<div>观看地址：</div>
+					<div>
+						<a th:href="${recommendationMovieList.get(1).getUrl()}">
+							<label th:text="${recommendationMovieList.get(1).getUrl()}"></label>
+						</a>
+					</div>
+					</p>
+				</div>
+				<div class="one-3">
+					<h4><span style="color: #8BC34A; font-size: 30px">03 &nbsp;</span>
+						<label th:text="${recommendationMovieList.get(2).getTitle()}"></label>
+					</h4>
+					<p>
+					<div>电影标签：</div>
+					<div th:each="genre:${recommendationMovieList.get(2).getGenres()}">
+						<img src="images/icon.png"/>
+						<label th:text="${genre.getName()} "></label>
+					</div>
+					<div>观看地址：</div>
+					<div>
+						<a th:href="${recommendationMovieList.get(2).getUrl()}">
+							<label th:text="${recommendationMovieList.get(2).getUrl()}"></label>
+						</a>
+					</div>
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 w3-two">
+				<div class="two">
+					<h4><span style="color: #8BC34A; font-size: 30px">04 &nbsp;</span>
+						<label th:text="${recommendationMovieList.get(3).getTitle()}"></label>
+					</h4>
+					<p>
+					<div>电影标签：</div>
+					<div th:each="genre:${recommendationMovieList.get(3).getGenres()}">
+						<img src="images/icon.png"/>
+						<label th:text="${genre.getName()} "></label>
+					</div>
+					<div>观看地址：</div>
+					<div>
+						<a th:href="${recommendationMovieList.get(3).getUrl()}">
+							<label th:text="${recommendationMovieList.get(3).getUrl()}"></label>
+						</a>
+					</div>
+					</p>
+				</div>
+				<div class="two-1">
+					<h4><span style="color: #8BC34A; font-size: 30px">05 &nbsp;</span>
+						<label th:text="${recommendationMovieList.get(4).getTitle()}"></label>
+					</h4>
+					<p>
+					<div>电影标签：</div>
+					<div th:each="genre:${recommendationMovieList.get(4).getGenres()}">
+						<img src="images/icon.png"/>
+						<label th:text="${genre.getName()} "></label>
+					</div>
+					<div>观看地址：</div>
+					<div>
+						<a th:href="${recommendationMovieList.get(4).getUrl()}">
+							<label th:text="${recommendationMovieList.get(4).getUrl()}"></label>
+						</a>
+					</div>
+					</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //portfolio -->
+<!-- team -->
+<!-- //team -->
+<!-- blog -->
+<!-- //blog -->
+<!-- modal -->
+<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title"><span>相似电影列表</span></h4>
+			</div>
+			<div class="modal-body">
+				<div class="agileits-w3layouts-info">
+					<table data-toggle="table">
+						<thead>
+						<tr>
+							<th data-field="index">序号</th>
+							<th data-field="name">电影名称</th>
+							<th data-field="url">观看地址</th>
+						</tr>
+						</thead>
+
+						<tbody id="modeltbody">
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //modal -->
+<!-- contact -->
+<!-- //contact -->
+<div class="footer">
+	<div class="container">
+		<div class="social">
+			<ul>
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-rss"></i></a></li>
+				<li><a href="#"><i class="fa fa-vk"></i></a></li>
+			</ul>
+		</div>
+		<div class="border"></div>
+		<div class="agileits-w3layouts-copyright">
+			<p>Copyright &copy; 2017.All rights reserved.</p>
+		</div>
+	</div>
+</div>
+<script src="js/responsiveslides.min.js"></script>
+<script src="js/SmoothScroll.min.js"></script>
+<script src="js/jarallax.js"></script>
+<script type="text/javascript">
+	/* init Jarallax */
+    $('.jarallax').jarallax({
+        speed: 0.5,
+        imgWidth: 1366,
+        imgHeight: 768
+    })
+</script>
+
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script src='js/jquery.typer.js'></script>
+<script>
+    var win = $(window),
+        foo = $('#typer');
+
+    foo.typer(['Speed and Fast', 'Wonder Woman', 'Hacksaw Ridge', 'Zootopia', 'The Godfather', 'Iron Man']);
+
+    // unneeded...
+    win.resize(function(){
+        var fontSize = Math.max(Math.min(win.width() / (1 * 10), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY));
+
+        foo.css({
+            fontSize: fontSize * .8 + 'px'
+        });
+    }).resize();
+</script>
+<!-- here stars scrolling icon -->
+<script type="text/javascript">
+    $(document).ready(function() {
+		/*
+		 var defaults = {
+		 containerID: 'toTop', // fading element id
+		 containerHoverID: 'toTopHover', // fading element hover id
+		 scrollSpeed: 1200,
+		 easingType: 'linear'
+		 };
+		 */
+
+        $().UItoTop({ easingType: 'easeOutQuart' });
+
+    });
+</script>
+<!-- //here ends scrolling icon -->
+<script src="js/owl.carousel.js"></script>
+<!--tabs-->
+<script src="js/easy-responsive-tabs.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#horizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true,   // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#tabInfo');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+        $('#verticalTab').easyResponsiveTabs({
+            type: 'vertical',
+            width: 'auto',
+            fit: true
+        });
+    });
+</script>
+<!--//tabs-->
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+---
+services:
+  config:
+    build: config-microservice
+    ports:
+      - 8899:8899
+  discovery:
+    build: discovery-microservice
+    ports:
+      - 8761:8761
+  gateway:
+    build: api-gateway-microservice
+    ports:
+      - 10000:10000
+  movie:
+    build: movie-microservice
+    ports:
+      - 9006:9006
+  rating:
+    build: rating-microservice
+    ports:
+      - 9004:9004
+  user:
+    build: user-microservice
+    ports:
+        - 9001:9001
+  recommendation:
+    build: recommendation-service
+    ports:
+        - 9009:9009
+  ui:
+    build: ui-microservice
+    ports:
+      - 9002:9002

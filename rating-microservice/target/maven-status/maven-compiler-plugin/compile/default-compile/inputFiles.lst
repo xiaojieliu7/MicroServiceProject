@@ -1,0 +1,8 @@
+/home/hadoop/Desktop/spring-cloud-polyglot-persistence-example-master/rating-microservice/src/main/java/com/xiaojie/Application.java
+/home/hadoop/Desktop/spring-cloud-polyglot-persistence-example-master/rating-microservice/src/main/java/com/xiaojie/data/domain/entity/Product.java
+/home/hadoop/Desktop/spring-cloud-polyglot-persistence-example-master/rating-microservice/src/main/java/com/xiaojie/data/domain/entity/User.java
+/home/hadoop/Desktop/spring-cloud-polyglot-persistence-example-master/rating-microservice/src/main/java/com/xiaojie/data/repositories/UserRepository.java
+/home/hadoop/Desktop/spring-cloud-polyglot-persistence-example-master/rating-microservice/src/main/java/com/xiaojie/data/repositories/ProductRepository.java
+/home/hadoop/Desktop/spring-cloud-polyglot-persistence-example-master/rating-microservice/src/main/java/com/xiaojie/data/domain/rels/Rating.java
+/home/hadoop/Desktop/spring-cloud-polyglot-persistence-example-master/rating-microservice/src/main/java/com/xiaojie/config/GraphDatabaseConfiguration.java
+/home/hadoop/Desktop/spring-cloud-polyglot-persistence-example-master/rating-microservice/src/main/java/com/xiaojie/data/repositories/RatingRepository.java

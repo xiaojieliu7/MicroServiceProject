@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway-microservice" />
+        <module name="config-microservice" />
+        <module name="discovery-microservice" />
+        <module name="movie-microservice" />
+        <module name="rating-microservice" />
+        <module name="recommendation-service" />
+        <module name="recommendation-service (1)" />
+        <module name="ui-microservice" />
+        <module name="user-microservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway-microservice" target="1.8" />
+      <module name="config-microservice" target="1.8" />
+      <module name="discovery-microservice" target="1.8" />
+      <module name="movie-microservice" target="1.8" />
+      <module name="rating-microservice" target="1.8" />
+      <module name="recommendation-service" target="1.8" />
+      <module name="recommendation-service (1)" target="1.8" />
+      <module name="recommendationservice" target="1.8" />
+      <module name="spring-cloud-microservice-example-parent" target="1.8" />
+      <module name="ui-microservice" target="1.8" />
+      <module name="ui-search" target="1.8" />
+      <module name="user-microservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

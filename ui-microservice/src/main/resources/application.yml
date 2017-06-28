@@ -1,0 +1,52 @@
+spring:
+  profiles:
+    active: docker
+---
+spring:
+  profiles: cloud
+server:
+  port: 9002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery-77.cfapps.io/eureka/
+  instance:
+    hostname: ui-search-77.cfapps.io
+    nonSecurePort: 80
+ribbon:
+  eureka:
+    enabled: true
+---
+spring:
+  profiles: docker
+  thymeleaf:
+    cache: false
+    content-type: text/html
+    mode: LEGACYHTML5
+    prefix: classpath:/templates/
+    suffix: .html
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
+    static-locations: classpath:/static/
+server:
+  port: 9002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
+  instance:
+    preferIpAddress: true
+ribbon:
+  eureka:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000

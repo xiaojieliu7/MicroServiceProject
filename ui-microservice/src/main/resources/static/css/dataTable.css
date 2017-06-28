@@ -1,0 +1,98 @@
+table.dataTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.dataTable th.dataTableHeader {
+	color: #fff;
+	background-color: #052d92;
+	padding: 5px;
+	border: #fff 1px solid;
+	text-align: left;
+}
+
+table.dataTable td {
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+	border-color: #ccc #fff #ccc #fff;
+}
+
+table.dataTable td a {
+	padding-right: 5px;
+
+}
+
+table.dataTable tr.odd_row {
+	background-color: #e4f2fb;
+}
+
+table.dataTable tr.even_row {
+	background-color: #f8f8f8;
+}
+
+table.dataTable tr.odd_row:hover,
+table.dataTable tr.even_row:hover,
+table.dataTable tr.odd_row:hover a,
+table.dataTable tr.even_row:hover a {
+	background-color: #FFD900;
+}
+
+table.dataTable tr.odd_row:hover a:hover,
+table.dataTable tr.even_row:hover a:hover {
+}
+
+table.dataTable th.dataTableHeader a,
+table.dataTable th.dataTableHeader a:link,
+table.dataTable th.dataTableHeader a:active,
+table.dataTable th.dataTableHeader a:visited {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
+* html table.dataTable th.dataTableHeader a {
+	width: 100%;
+}
+
+table.dataTable th.dataTableHeader a:hover {
+	text-decoration: underline;
+}
+
+table.dataTable {
+	border-bottom: 1px solid #fff;
+}
+
+table.dataTable thead td,
+table.dataTable tfoot td.dataTableFooter {
+	border: 0;
+	padding: 0;
+}
+
+ul.dataTablePagination {
+	margin: 0 0 0 -1px;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 1px 1px 0 1px;
+	padding: 5px;
+}
+
+
+* html ul.dataTablePagination {
+	margin: 0;
+}
+
+ul.dataTablePagination li {
+	display: inline;
+}
+
+ul.dataTablePagination li.currentPage {
+	font-weight: bold;
+}
+
+/* for stuff like: You are viewing items 1 through 10 of 16. */
+span.dataTableDisplayInfo {
+	display: block;
+	float: right;
+	margin: 5px 5px 5px 0;
+}

@@ -1,0 +1,32 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="/css/style1.css" media="all"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+</head>
+<body>
+<div class="login">
+	<h2>Acced Form</h2>
+	<div class="login-top">
+		<h1>LOGIN FORM</h1>
+		<form action="/login?valid" th:object="${userInfo}" method="post">
+			<input type="text" name="userid" value="" th:value="*{userid}" placeholder="用户名">
+			<input type="password" name="password" value="" th:value="*{password}" placeholder="密码">
+			<div>
+				<label th:if="${isshow}" style="color: red">&nbsp;&nbsp;&nbsp;&nbsp;用户名或密码错误!</label>
+			</div>
+			<div class="forgot">
+				<!--<a href="#">forgot Password</a>-->
+				<input type="submit" value="Login" >
+			</div>
+		</form>
+	</div>
+	<div class="login-bottom">
+		<h3>You Can Use a&nbsp;<a href="/home?userid=4">Demo Account</a>&nbsp Here</h3>
+	</div>
+</div>
+
+</body>
+</html>
